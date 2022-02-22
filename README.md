@@ -116,12 +116,11 @@ Make sure you have provided all the necessary dependencies in your vuetify proje
 
 The template has several functionalities that can be configured.
 
-### Build and publish locally
-tbd.
+1. Clone or fork the repository
+2. Adjust the parameters in the package.json (name, description, repository etc.)
+3. Build locally or publish it via GitHub Action
 
-### Build and publish in GitHub Actions
-tbd.
-
+There is already a ready-to-use GitHub action in the project to publish projects on npmjs.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
