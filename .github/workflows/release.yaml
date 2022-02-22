@@ -12,8 +12,6 @@ jobs:
           node-version: '14'
           cache: 'npm'
       - run: npm install
-      - run: npm run build
-      - run: npm init --scope=muenchen
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
