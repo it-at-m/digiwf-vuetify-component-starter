@@ -1,7 +1,8 @@
 {
-  "name": "digiwf-vuetify-component-starter",
-  "version": "2.0.0",
+  "name": "@muenchen/digiwf-vuetify-component-starter",
+  "version": "0.0.1",
   "description": "DigiWF vuetify component lib starter project",
+  "license": "MIT",
   "main": "dist/digiwf-vuetify-component-starter.ssr.js",
   "browser": "dist/digiwf-vuetify-component-starter.esm.js",
   "module": "dist/digiwf-vuetify-component-starter.esm.js",
@@ -15,6 +16,7 @@
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.ts",
     "prebuild": "rimraf ./dist",
+    "test": "",
     "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
     "build:ssr": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
@@ -65,5 +67,15 @@
   },
   "engines": {
     "node": ">=12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/it-at-m/digiwf-vuetify-component-starter"
+  },
+  "keywords": [
+    "starter",
+    "vuetify",
+    "typescript",
+    "rollup"
+  ]
 }
