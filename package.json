@@ -48,6 +48,7 @@
     "deepmerge": "^4.2.2",
     "eslint-plugin-vue": "^6.2.2",
     "minimist": "^1.2.5",
+    "postcss": "^8.4.6",
     "rimraf": "^3.0.2",
     "rollup": "^2.52.8",
     "rollup-plugin-peer-deps-external": "^2.2.4",
