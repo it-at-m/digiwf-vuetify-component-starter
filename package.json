@@ -1,6 +1,6 @@
 {
   "name": "@muenchen/digiwf-vuetify-component-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "DigiWF vuetify component lib starter project",
   "license": "MIT",
   "main": "dist/digiwf-vuetify-component-starter.ssr.js",
