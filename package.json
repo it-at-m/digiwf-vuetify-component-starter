@@ -77,5 +77,10 @@
     "vuetify",
     "typescript",
     "rollup"
-  ]
+  ],
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  }
 }
